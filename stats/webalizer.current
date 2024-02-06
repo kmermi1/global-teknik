@@ -99,17 +99,17 @@
 0
 0
 # -urls- 
-/GLobal Teknik_files/1.jpg
+/assets/1.jpg
 1 10 0 3459336 0 0
-/GLobal Teknik_files/banner.jpg
+/assets/banner.jpg
 1 8 0 361578 0 0
-/GLobal Teknik_files/switch.js
+/assets/switch.js
 0 24 0 41690 0 0
 /PARTENER-En.html
 0 19 0 89889 7 5
-/GLobal Teknik_files/pascal.css
+/assets/pascal.css
 0 25 0 49565 0 0
-/GLobal Teknik_files/style-red.css
+/assets/style-red.css
 0 24 0 171444 0 0
 /GLobal Teknik-En.html
 0 29 0 131196 12 8
@@ -121,37 +121,37 @@
 0 20 0 101780 5 9
 /À PROPOS DE NOUS.html
 0 21 0 116697 6 5
-/GLobal Teknik_files/world.png
+/assets/world.png
 1 7 0 313056 0 0
 /ABOUT US.html
 0 19 0 96318 7 7
-/GLobal Teknik_files/orman.css
+/assets/orman.css
 0 25 0 47219 0 0
 /OUR SERVICES.html
 0 23 0 126140 7 6
 /favicon.ico
 0 39 0 0 0 0
-/GLobal Teknik_files/default.css
+/assets/default.css
 0 26 0 41676 0 0
 /PARTENER-Tr.html
 0 27 0 106789 8 7
-/GLobal Teknik_files/4.jpg
+/assets/4.jpg
 1 12 0 2056250 0 0
 /MISSION - VISION.html
 0 22 0 118230 5 6
 /ENVIRONMENTALQUALITY POLICY.html
 0 18 0 101167 5 4
-/GLobal Teknik_files/jquery-1.6.4.min.js
+/assets/jquery-1.6.4.min.js
 0 25 0 1925049 0 0
-/GLobal Teknik_files/5.jpg
+/assets/5.jpg
 1 9 0 2126985 0 0
 /REFERENCES.html
 0 18 0 104346 5 5
-/GLobal Teknik_files/style.css
+/assets/style.css
 0 26 0 47208 0 0
 /CEVREKALITE POLITIKASI.html
 0 25 0 126546 4 3
-/GLobal Teknik_files/nivo-slider.css
+/assets/nivo-slider.css
 0 25 0 31768 0 0
 /IS GUVENLIGI.html
 0 27 0 121488 8 7
@@ -163,13 +163,13 @@
 0 18 0 131256 6 5
 /1/RESIM GALERISII.html
 0 39 0 147712 10 7
-/GLobal Teknik_files/2.jpg
+/assets/2.jpg
 1 12 0 2666016 0 0
 /GLobal Teknik-Fr.html
 0 23 0 120175 5 6
-/GLobal Teknik_files/3.jpg
+/assets/3.jpg
 1 13 0 2649456 0 0
-/GLobal Teknik_files/jquery-1.4.4.min.js
+/assets/jquery-1.4.4.min.js
 0 25 0 1650663 0 0
 /POLITIQUE ENVIRONNEMENTALE ET QUALITÉ.html
 0 22 0 138666 8 5
@@ -177,15 +177,15 @@
 0 26 0 144716 9 9
 /
 0 1217 0 4543305 803 154
-/GLobal Teknik_files/6.jpg
+/assets/6.jpg
 1 8 0 4462136 0 0
 /1/svcore/js/simpleviewer.js
 0 10 0 1123620 0 0
 /HAKKIMIZDA.html
 0 39 0 162000 19 7
-/GLobal Teknik_files/ajax.js
+/assets/ajax.js
 0 24 0 32020 0 0
-/GLobal Teknik_files/jquery.nivo.slider.pack.js
+/assets/jquery.nivo.slider.pack.js
 0 24 0 241395 0 0
 /robots.txt
 0 134 0 0 0 0
@@ -193,7 +193,7 @@
 0 26 0 135424 8 7
 /PARTENER-Fr.html
 0 19 0 93746 4 6
-/GLobal Teknik_files/jquery.min.js
+/assets/jquery.min.js
 0 26 0 2016696 0 0
 # End Of Table - urls
 # -sites- (monthly)

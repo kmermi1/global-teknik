@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<simpleviewergallery
+	
+	galleryStyle="MODERN"
+	title="GALERISI"
+	textColor="FFFFFF"
+	frameColor="FFFFFF"
+	frameWidth="20"
+	thumbPosition="LEFT"
+	thumbColumns="3"
+	thumbRows="3"
+	showOpenButton="TRUE"
+	showFullscreenButton="TRUE"	
+	maxImageWidth="640"
+	maxImageHeight="640"
+	useFlickr="false"
+	flickrUserName=""
+	flickrTags=""
+	languageCode="AUTO"
+	languageList=""		
+	imagePath="images/"
+	thumbPath="thumbs/"
+	
+>
+
+<image imageURL="images/1.jpg" thumbURL="thumbs/1.jpg" linkURL="" linkTarget="" >
+	<caption>SOGUTMA SISTEMI REVIZYONU</caption>	
+</image>
+<image imageURL="images/2.jpg" thumbURL="thumbs/2.jpg" linkURL="" linkTarget="" >
+	<caption>SOGUTMA SISTEMI REVIZYONU</caption>	
+</image>
+<image imageURL="images/3.jpg" thumbURL="thumbs/3.jpg" linkURL="" linkTarget="" >
+	<caption>.SOGUTMA SISTEMI</caption>	
+</image>
+<image imageURL="images/4.jpg" thumbURL="thumbs/4.jpg" linkURL="" linkTarget="" >
+	<caption>TANK BIRLESTIRMESI VE MONTAJI</caption>	
+</image>
+<image imageURL="images/5.jpg" thumbURL="thumbs/5.jpg" linkURL="" linkTarget="" >
+	<caption>BORULAMA VE FILTRELEME</caption>	
+</image>
+<image imageURL="images/6.jpg" thumbURL="thumbs/7.jpg" linkURL="" linkTarget="" >
+	<caption>YONLENDIRME PANELI</caption>	
+</image>
+<image imageURL="images/7.jpg" thumbURL="thumbs/7.jpg" linkURL="" linkTarget="" >
+	<caption>.ISITMA SISTEMI KURULUMU</caption>	
+</image>
+<image imageURL="images/8.jpg" thumbURL="thumbs/8.jpg" linkURL="" linkTarget="" >
+	<caption>.CIP SISTEMI KURULUMU</caption>	
+</image>
+<image imageURL="images/9.jpg" thumbURL="thumbs/9.jpg" linkURL="" linkTarget="" >
+	<caption>DOLUM HATTI</caption>	
+</image>
+<image imageURL="images/10.jpg" thumbURL="thumbs/10.jpg" linkURL="" linkTarget="" >
+	<caption>REGLER VANA REVIZYON</caption>	
+</image>
+<image imageURL="images/11.jpg" thumbURL="thumbs/11.jpg" linkURL="" linkTarget="" >
+	<caption>T.STOK TANKLARI</caption>	
+<image imageURL="images/12.jpg" thumbURL="thumbs/12.jpg" linkURL="" linkTarget="" >
+	<caption>.STOK TANKLARI</caption>	
+</image>
+<image imageURL="images/13.jpg" thumbURL="thumbs/13.jpg" linkURL="" linkTarget="" >
+	<caption>SU TASFIYE SISTEMI</caption>	
+</image>
+<image imageURL="images/14.jpg" thumbURL="thumbs/14.jpg" linkURL="" linkTarget="" >
+	<caption>SU TASFIYE SISTEMI </caption>	
+</image>
+<image imageURL="images/15.jpg" thumbURL="thumbs/16.jpg" linkURL="" linkTarget="" ></image>
+
+	<caption>OTOMASYON SISTEM</caption>	
+</image>
+<image imageURL="images/16.jpg" thumbURL="thumbs/16.jpg" linkURL="" linkTarget="" >
+	<caption>AYDINLATMA</caption>	
+</image>
+<image imageURL="images/17.jpg" thumbURL="thumbs/17.jpg" linkURL="" linkTarget="" >
+	<caption>.SILO MONTAJ     </caption>	
+</image>
+<image imageURL="images/18.jpg" thumbURL="thumbs/18.jpg" linkURL="" linkTarget="" >
+	<caption>.SILO MONTAJ                        </caption>	
+</image>
+<image imageURL="images/19.jpg" thumbURL="thumbs/19.jpg" linkURL="" linkTarget="" >
+	<caption>.SILO MONTAJ            </caption>	
+</image>
+<image imageURL="images/20.jpg" thumbURL="thumbs/20.jpg" linkURL="" linkTarget="" >
+	<caption>.SILO KUMANDA PANOSU             </caption>	
+</image>
+<image imageURL="images/21.jpg" thumbURL="thumbs/21.jpg" linkURL="" linkTarget="" >
+	<caption>.OTOMASON SISTEMI</caption>	
+</image>
+<image imageURL="images/22.jpg" thumbURL="thumbs/22.jpg" linkURL="" linkTarget="" >
+	<caption>.ETIKET MAKINASI KURULUMU</caption>	
+</image>
+<image imageURL="images/23.jpg" thumbURL="thumbs/23.jpg" linkURL="" linkTarget="" >
+	<caption>SILO TANK REVIZYONU</caption>	
+</image>
+<image imageURL="images/24.jpg" thumbURL="thumbs/24.jpg" linkURL="" linkTarget="" >
+	<caption>BORULAMA KAYNAK UYGULAMASI </caption>	
+</image>
+<image imageURL="images/25.jpg" thumbURL="thumbs/25.jpg" linkURL="" linkTarget="" >
+	<caption>.SIO TANK REVIZYON </caption>	
+</image>
+<image imageURL="images/26.jpg" thumbURL="thumbs/26.jpg" linkURL="" linkTarget="" >
+	<caption>.TANK REVIZYON </caption>	
+</image>
+<image imageURL="images/27.jpg" thumbURL="thumbs/27.jpg" linkURL="" linkTarget="" >
+	<caption>.BORULAMA </caption>	
+</image>
+<image imageURL="images/28.jpg" thumbURL="thumbs/28.jpg" linkURL="" linkTarget="" >
+	<caption>.DOLUM MAKINASI KURULUMU </caption>	
+</image>
+<image imageURL="images/29.jpg" thumbURL="thumbs/29.jpg" linkURL="" linkTarget="" >
+	<caption>.TANK MONTAJI</caption>	
+</image>	
+
+<image imageURL="images/30.jpg" thumbURL="thumbs/30.jpg" linkURL="" linkTarget="" >
+	<caption>.TANK MONTAJI</caption>	
+</image>	
+
+<image imageURL="images/31.jpg" thumbURL="thumbs/31.jpg" linkURL="" linkTarget="" >
+	<caption>BUHAR KAZANI KURULUMU</caption>	
+</image>	
+
+<image imageURL="images/32.jpg" thumbURL="thumbs/32.jpg" linkURL="" linkTarget="" >
+	<caption>.SU TASFIYE REVIZYON</caption>	
+</image>	
+
+<image imageURL="images/33.jpg" thumbURL="thumbs/33.jpg" linkURL="" linkTarget="" >
+	<caption>.SILO SISTEMI BORULAMA</caption>	
+</image>
+
+<image imageURL="images/34.jpg" thumbURL="thumbs/34.jpg" linkURL="" linkTarget="" >
+	<caption>.OTOMASYON SISTEMI</caption>	
+</image>
+
+<image imageURL="images/35.jpg" thumbURL="thumbs/35.jpg" linkURL="" linkTarget="" >
+	<caption>.OTOMASYON SISTEMI</caption>	
+</image>
+<image imageURL="images/36.jpg" thumbURL="thumbs/36.jpg" linkURL="" linkTarget="" >
+	<caption>.ALCAK GERILIM PANO MONTAJI</caption>	
+</image>
+<image imageURL="images/37.jpg" thumbURL="thumbs/37.jpg" linkURL="" linkTarget="" >
+	<caption>.YUKSEK GERILIM KURULUMU</caption>	
+</image>
+<image imageURL="images/38.jpg" thumbURL="thumbs/38.jpg" linkURL="" linkTarget="" >
+	<caption>.KUMANDA PANOSU IMALAT VE MONTAJI</caption>	
+</image>
+
+<image imageURL="images/39.jpg" thumbURL="thumbs/39.jpg" linkURL="" linkTarget="" >
+	<caption>.KABLO KANAL UYGULAMALARI</caption>	
+</image>
+<image imageURL="images/40.jpg" thumbURL="thumbs/40.jpg" linkURL="" linkTarget="" >
+	<caption>.KABLO KANAL UYGULAMALARI</caption>	
+</image>
+<image imageURL="images/41.jpg" thumbURL="thumbs/41.jpg" linkURL="" linkTarget="" >
+	<caption>.BUHAR KAZANI KURULUMU</caption>	
+</image>
+
+<image imageURL="images/42.jpg" thumbURL="thumbs/42.jpg" linkURL="" linkTarget="" >
+	<caption>.HAVA KOMPRASORU MONTAJI</caption>	
+</image>
+
+<image imageURL="images/43.jpg" thumbURL="thumbs/43.jpg" linkURL="" linkTarget="" >
+	<caption>.HAVA KOMPRASORU MONTAJI</caption>	
+</image>
+<image imageURL="images/44.jpg" thumbURL="thumbs/44.jpg" linkURL="" linkTarget="" >
+	<caption>.KONVEYOR HATTI KURULUMU</caption>	
+</image>
+<image imageURL="images/45.jpg" thumbURL="thumbs/45.jpg" linkURL="" linkTarget="" >
+	<caption>.KONVEYOR HATTI KURULUMU</caption>	
+</image>
+<image imageURL="images/46.jpg" thumbURL="thumbs/46.jpg" linkURL="" linkTarget="" >
+	<caption>.CIP SISTEM KURULUMU</caption>	
+</image>
+
+<image imageURL="images/47.jpg" thumbURL="thumbs/47.jpg" linkURL="" linkTarget="" >
+	<caption>.IC AYDINLATMA PROJESI</caption>	
+</image>
+
+<image imageURL="images/48.jpg" thumbURL="thumbs/48.jpg" linkURL="" linkTarget="" >
+	<caption>.DIS AYDINLATMA PROJESI</caption>	
+</image>
+<image imageURL="images/49.jpg" thumbURL="thumbs/49.jpg" linkURL="" linkTarget="" >
+	<caption>.PLASTIK ENJEKSIYON SISTEMI KURULUMU</caption>	
+</image>
+
+
+
+<image imageURL="images/50.jpg" thumbURL="thumbs/50.jpg" linkURL="" linkTarget="" >
+	<caption>.PLASTIK ENJEKSIYON SISTEMI KURULUMU</caption>	
+</image>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</simpleviewergallery>

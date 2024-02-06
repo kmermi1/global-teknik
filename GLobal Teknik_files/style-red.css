@@ -1,0 +1,240 @@
+﻿/*Reset and preview styles, they have nothing with menu. Use CSS reset in own css file so menu can work*/
+body, ul, li, p, h1, h2, h3, h4, h5, h6 {margin: 0; padding: 0; list-style-type: none;}
+body { background:#E0E0E0;}
+#wrapper {
+	width: 800px;
+	margin: 40px auto;
+	background-color:#fff;
+	}
+.cb { clear: both; }
+/************
+Menu CSS start here
+************/
+/*Menu Config-widths*/
+#nav { width: 800px; background-color:#fff;}
+ul.main { height: 50px; width: 770px; padding: 0 15px; background-color:#fff;}
+ul.sub,ul.sub_rt { top: 50px; z-index:555; }/*Change as u change menu height*/
+ul.main li ul li { width: 150px; } /*Define width of all dropdowns*/
+ul.sub_2nd { left: 150px; } /*Position of dropdown 2nd lvl, must mach above number*/
+ul.sub_2nd_rt { right: 150px; } /*Position of dropdown 2nd lvl right, also must mach above number*/
+/*Menu Config-RED COLOR*/
+ul.main { border-bottom: 3px solid #D30E14; } /*Bottom border on main nav*/
+ul.main li:hover:after { border-color: transparent transparent #D30E14 transparent; }/*Color of UP arrow in main menu*/ 
+ul.main li a { color: #222222; } /*Nav link color*/
+div#nav ul.main li ul.sub li a, div#nav ul.main li ul.sub_rt li a { color: #F4F4F4; } /*Dropdown link color*/
+ul.main li ul.sub,ul.main li ul.sub_rt,ul.main li ul.sub li ul.sub_2nd,ul.main li ul.sub_rt li ul.sub_2nd_rt 
+{ background: #D30E14;border-top: 3px solid #D30E14; border-bottom: 3px solid #D30E14; } /*Background and top/bot borders*/
+ul.main li ul.sub li,ul.main li ul.sub_rt li { border-bottom: 1px dotted #FF473F; }/*Dashed border betwean links in dropdown*/
+ul.main li ul.sub li:hover,ul.main li ul.sub_rt li:hover,ul.main li ul.sub li:hover, ul.main li ul.sub_rt li:hover 
+{ background: #990000; }/*Hover on dropdowns*/
+ul.main li ul.sub li span.rightarrow { border-color: transparent transparent transparent #990000; }/*Color of right arrow*/
+ul.main li ul.sub_rt li span.leftarrow { border-color: transparent #990000 transparent transparent; }/*Color of left arrow*/
+/*Form and other elements*/
+ul.main li ul.sub_rt li.form { background: #D30E14; }
+li.form input[type=text], li.form input[type=password], li.form textarea { border: 1px solid #A9070D; }
+/** MAIN MENU STYLE **/
+#nav ul.main li.fr { float: right; }
+#nav ul.main {
+	float: left;
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffffff), color-stop(99%, #ebebeb));
+	background: -webkit-linear-gradient(top, #ffffff 0%, #ebebeb 99%);
+	background: -moz-linear-gradient(top, #ffffff 0%, #ebebeb 99%);
+	background: -o-linear-gradient(top, #ffffff 0%, #ebebeb 99%);
+	background: -ms-linear-gradient(top, #ffffff 0%, #ebebeb 99%);
+	background: linear-gradient(top, #ffffff 0%, #ebebeb 99%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2d383a', endColorstr='#151e21',GradientType=0 );
+	-webkit-border-radius: 4px 4px 0 0;
+	-moz-border-radius: 4px 4px 0 0;
+	-o-border-radius: 4px 4px 0 0;
+	-ms-border-radius: 4px 4px 0 0;
+	-khtml-border-radius: 4px 4px 0 0;
+	border-radius: 4px 4px 0 0;
+}
+#nav ul.main li { float: left; position: relative; }
+#nav ul.main li:hover {
+	-webkit-box-shadow: inset 0 4px 10px #e3e3e3;
+	-moz-box-shadow: inset 0 4px 10px #e3e3e3;
+	box-shadow: inset 0 4px 10px #e3e3e3;
+}
+#nav ul.main li a {
+	display: block;
+	font: normal 12px/50px Arial, sans-serif;
+	text-decoration: none;
+	padding: 0 15px;
+	position: relative;
+}
+#nav ul.main li:hover:after {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 44%;
+	border-style: solid;
+	border-width: 6px;
+	width: 0;
+	height: 0;
+}
+/* SUB MENU STYLE - dropdown 1st level*/
+#nav ul.main li ul.sub, #nav ul.main li ul.sub_rt { display: none; }
+#nav ul.main li:hover ul.sub {
+	display: block;
+	position: absolute;
+	left: 0;
+}
+#nav ul.main li:hover ul.sub_rt {
+	display: block;
+	position: absolute;
+	right: 0;
+}
+#nav ul.main li ul.sub li, #nav ul.main li ul.sub_rt li { position: relative; }
+#nav ul.main li ul.sub li:first-child, #nav ul.main li ul.sub_rt li:first-child { margin-left: 0; }
+#nav ul.main li ul.sub li:last-child, #nav ul.main li ul.sub_rt li:last-child { border-bottom: none; }
+#nav ul.main li ul.sub li:hover, #nav ul.main li ul.sub_rt li:hover {
+	-webkit-box-shadow: 0 0 0 #000;
+	-moz-box-shadow: 0 0 0 #000;
+	box-shadow: 0 0 0 #000;
+}
+#nav ul.main li ul.sub li:hover:after, #nav ul.main li ul.sub_rt li:hover:after {
+	content: '';
+	position: absolute;
+	border: 0;
+}
+#nav ul.main li ul.sub li a, #nav ul.main li ul.sub_rt li a {
+	display: block;
+	font: normal 11px/30px Arial, sans-serif;
+}
+#nav ul.main li ul.sub li span.rightarrow {
+	position: absolute;
+	z-index: 500;
+	right: 0px;
+	top: 10px;
+	border-style: solid;
+	border-width: 6px;
+	width: 0;
+	height: 0;
+}
+#nav ul.main li ul.sub_rt li span.leftarrow {
+	position: absolute;
+	z-index: 500;
+	right: 6px;
+	top: 10px;
+	border-style: solid;
+	border-width: 6px;
+	width: 0;
+	height: 0;
+}
+/* SUB_2nd MENU STYLE - dropdown 2nd level*/
+#nav ul.main li ul.sub li ul.sub_2nd { display: none; }
+#nav ul.main li ul.sub li:hover ul.sub_2nd {
+	display: block;
+	position: absolute;
+	z-index: 700;
+	top: -3px;
+}
+#nav ul.main li ul.sub_rt li ul.sub_2nd_rt { display: none; }
+#nav ul.main li ul.sub_rt li:hover ul.sub_2nd_rt {
+	display: block;
+	position: absolute;
+	z-index: 777;
+	top: -3px;
+}
+/**** MENU ELEMENTS *************\
+-other elements like form,
+buttons and other are styled here.
+\**** Form elements	*************/
+ul.main li ul.sub_rt li.form {
+	padding: 0 15px;
+	font: normal 11px/24px Arial, sans-serif;
+}
+ul.main li ul.sub_rt li.form.contact {
+	width: 180px;
+}
+li.form input[type=text], li.form input[type=password] {
+	width: 94%;
+	height: 20px;
+	padding: 0 5px;
+	color: #222;
+	font: normal 11px Arial, sans-serif;
+	font-style: italic;
+	margin: 0;
+	-webkit-box-shadow: inset 3px 3px 3px #CCCCCC;
+	-moz-box-shadow: inset 3px 3px 3px #CCCCCC;
+	box-shadow: inset 3px 3px 3px #CCCCCC;
+}
+li.form textarea {
+	width: 94%;
+	height: 70px;
+	padding: 5px;
+	color: #222;
+	font: normal 11px Arial, sans-serif;
+	margin: 0;
+	-webkit-box-shadow: inset 3px 3px 3px #CCCCCC;
+	-moz-box-shadow: inset 3px 3px 3px #CCCCCC;
+	box-shadow: inset 3px 3px 3px #CCCCCC;
+	resize: none;
+}
+li.form input[type=text]:focus, li.form input[type=password]:focus, li.form textarea:focus { outline: none; }
+li.form label { color: #F4F4F4; }
+li.form button {
+	padding: 3px 9px;
+	border: 1px solid #222;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	-o-border-radius: 3px;
+	-ms-border-radius: 3px;
+	-khtml-border-radius: 3px;
+	border-radius: 3px;
+	margin-top: 7px;
+	margin-bottom: 10px;
+	color: #F4F4F4;
+	font: normal 11px Arial, sans-serif;
+	position: relative;
+	cursor: pointer;
+	outline: none;
+	background: rgb(45,56,58);
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(1%, rgb(45,56,58)), color-stop(100%, rgb(21,30,33)));
+	background: -webkit-linear-gradient(top, rgb(45,56,58) 1%, rgb(21,30,33) 100%);
+	background: -moz-linear-gradient(top, rgb(45,56,58) 1%, rgb(21,30,33) 100%);
+	background: -o-linear-gradient(top, rgb(45,56,58) 1%, rgb(21,30,33) 100%);
+	background: -ms-linear-gradient(top, rgb(45,56,58) 1%, rgb(21,30,33) 100%);
+	background: linear-gradient(top, rgb(45,56,58) 1%, rgb(21,30,33) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2d383a', endColorstr='#151e21',GradientType=0 );
+}
+li.form button:after {
+	content: '\00a0';
+	position: absolute;
+	display: block;
+	background: transparent;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 999;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	-o-border-radius: 3px;
+	-ms-border-radius: 3px;
+	-khtml-border-radius: 3px;
+	border-radius: 3px;
+	border-top: 1px solid #555555;
+}
+li.form input[type=checkbox] { position: relative; top: 3px; }
+li.form input.search {
+	width: 83px;
+	float: left;
+	margin-top: 7px;
+}
+li.form button.searchbtn {
+	float: left;
+	border-left: 0;
+	-webkit-border-radius: 0 3px 3px 0;
+	-moz-border-radius: 0 3px 3px 0;
+	-o-border-radius: 0 3px 3px 0;
+	-ms-border-radius: 0 3px 3px 0;
+	-khtml-border-radius: 0 3px 3px 0;
+	border-radius: 0 3px 3px 0;
+	margin-left: -1px;
+}
+/*Error messages*/
+div#note {
+	font: normal 11px/14px Arial, sans-serif;
+	color: #F4F4F4;
+}
